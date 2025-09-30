@@ -3,8 +3,11 @@
 int main() {
     char str[1000];
     int count = 0, i = 0;
+
     printf("Enter a string: ");
-    gets(str); 
+    fgets(str, sizeof(str), stdin);
+
+
     while(str[i] != '\0') {
         count++;
         i++;
