@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Define a structure
 struct Student {
     int roll;
     char name[50];
